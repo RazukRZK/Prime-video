@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'fonteLT';
+    src: url(AmazonEmber_Lt.woff)
+}
+
+@font-face{
+    font-family: 'fonteRG';
+    src: url(AmazonEmber_Rg.woff)
+}
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: #00050D;
+    font-family: 'fonteLT';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+header nav a{
+    font-family: 'fonteRG';
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover{
+    background-color: #222222;
+}
+
+header nav a img{
+    width: 96px;
+    height: 18px;
+} 
+
+#cabecalho a{
+    padding: 0px 20px;
+}
+
+#cabecalho2 a{
+    padding: 0px 20px;
+}
+
+#conteudoCima{
+    width: 100%;
+    min-height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0)), url('Prime/Imagem_fundo_cima.jpg.jpg');
+    display: flex;
+    align-items: center; 
+    padding: 55px;
+}
+
+#plano{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'fonteLT';
+    color: #ffffff;
+    width: 40%;
+    height: 65vh;
+    margin-right: 50px;
+}
+
+#conteudoCima h1{
+    font-size: 40px;
+}
+
+#conteudoCima p:first-of-type {
+    font-size: 21px;
+}
+
+#conteudoCima a{
+    font-size: 15px;
+    background-color: #0F79AF;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#fimConteudoCima{
+    font-size: 15px;
+}
+
+#conteudoMeio{
+    padding: 10px 55px;
+    font-family: fonteLT;
+    display: flex;
+    justify-content: space-between;
+}
+
+#texto{
+    width: 40%;
+}
+
+#texto h1{
+    line-height: 1.1;
+    font-size: 44.8px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+#texto p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#imagens{
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+td:hover{
+    background-color: #222222;
+}
+
+#imagens table img{
+    width: 190px;
+    height: 130px;
+    margin: 1px 2px;
+    transition: background-color 0.3s,;
+}
+
+#imagens table img:hover {
+    background-color: gray;
+}
+
+#conteudoMeioBaixo{
+    width: 100%;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to left, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0)), url('Prime/MLP_BG_left_1440x675.jpg');
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 55px;
+}
+
+#filmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'fonteLT';
+    color: #ffffff;
+    width: 35%;
+    height: 30vh;
+    margin-right: 50px;
+}
+
+#filmes h1{
+    font-size: 40px;
+}
+
+#filmes p{
+    font-size: 21px;
+}
+
+#filmes a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0F79AF;
+    padding: 25px;
+
+}
+
+#conteudoFinal{
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;   
+}
+
+.comoAssistir{
+    width: 25vw;
+    font-family: fonteLT;
+    text-align: center;
+}
+
+.comoAssistir h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    
+}
+
+.comoAssistir p{
+    font-size: 21px;
+}
+
+.figuras{
+    width: 25vw;
+    height: 300px;
+}
+
+.figuras img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    padding: 40px;
+    width: 100%;
+    background-color: #222222;
+    font-family: fonteLT;
+}
+
+#finalzin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#finalzin p{
+    color: gray;
+}
+
+#logofinalzin{
+    width: 109px;
+    height: 32px;
+}
+
+#logofinalzin img{
+    width: 100%;
+    height: 100%;
+}
+
+#conteudofinalzin{
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#conteudofinalzin a{
+    text-decoration: none;
+    color: #0f79af
+}
+
+
+
+
+
+
+
