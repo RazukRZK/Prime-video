@@ -44,7 +44,7 @@ header {
 }
 
 header nav{
-    width: 55%;
+    width: 70%;
     display: flex;
     font-size: 18px;
     justify-content: space-between;
@@ -75,7 +75,7 @@ header nav a img{
 
 #conteudoCima{
     width: 100%;
-    min-height: 85vh;
+    min-height: 670px;
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0)), url('Prime/Imagem_fundo_cima.jpg.jpg');
@@ -180,7 +180,7 @@ td:hover{
 
 #conteudoMeioBaixo{
     width: 100%;
-    min-height: 80vh;
+    min-height: 670px;
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(to left, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 0)), url('Prime/MLP_BG_left_1440x675.jpg');
